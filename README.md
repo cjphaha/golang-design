@@ -23,3 +23,7 @@
   + 反射实现的 dig https://github.com/uber-go/dig
   + 使用 go generate 实现的 wire https://github.com/google/wire
 
+## 参考资料
+
++ https://lailin.xyz/post/factory.html
++ https://refactoringguru.cn/design-patterns/abstract-factory/go/example
