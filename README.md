@@ -22,8 +22,21 @@
 
   + 反射实现的 dig https://github.com/uber-go/dig
   + 使用 go generate 实现的 wire https://github.com/google/wire
+## 构造者模式
+
+## 代理模式
+
+> 代理类和被代理类实现同一个接口，代理类中持有被代理的对象
+
+例如:
+1. 火车票的代售票点。代售点就是代理，它拥有被大力对象的部门功能——售票功能
+
++ 静态代理
++ 动态代理
+  java 中有字节码生成技术，但是 go 里面没有，可以用 go generate 来实现类似的功能
 
 ## 参考资料
 
 + https://lailin.xyz/post/factory.html
 + https://refactoringguru.cn/design-patterns/abstract-factory/go/example
++ https://learnku.com/articles/33707
